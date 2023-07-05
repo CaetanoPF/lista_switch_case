@@ -5,7 +5,15 @@
     */
 
     //ENTRADA
-
+    const n = Number(prompt(`Informe um número:`).trim());
+    switch (n % 2) {
+    case 0 :
+        document.write(`O número é par!`);
+        break;
+    default :
+        document.write(`O número é ímpar!`);
+        break;
+    }
     
     //PROCESSAMENTO
 

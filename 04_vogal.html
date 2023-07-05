@@ -3,7 +3,21 @@
     //PROBLEMA: Vogal - Construa um programa que leia um caractere e informe se este caractere é uma vogal.
 
     // ENTRADA
-
+    const turno = prompt(`Informe o turno que você estuda (M-matutino ou V-Vespertino ou N-Noturno):`).trim().toUpperCase();
+    switch (turno) {
+    case "M" :
+        document.write("Bom dia!");
+        break;
+    case "V" :
+        document.write("Boa tarde!");
+        break;
+    case "N":
+        document.write("Boa noite!");
+        break;
+    default :
+        document.write("Valor Inválido!");
+        break;
+    }
     
     // PROCESSAMENTO
 
