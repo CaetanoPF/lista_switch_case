@@ -1,0 +1,104 @@
+<meta charset="UTF-8">
+<script>
+    /*
+    //PROBLEMA: Faça um script que pergunte para a pessoa em qual hemisfério ela está e qual o mês atual.
+    De acordo com as respostas, informe qual a estação do ano correspondente.
+    */
+
+    //ENTRADA
+    const hemisferio = prompt('Informe em que hemisfério você está (N - Norte ou S - Sul):').toUpperCase().trim();
+    const mes = prompt('Informe em que mês nós estamos:').toLowerCase().trim();
+
+    //PROCESSAMENTO
+    switch (hemisferio) {
+        case "N":
+            switch (mes) {
+                case "janeiro":
+                    alert('Estamos no inverno!')
+                    break;
+                case "fevereiro":
+                    alert("Estamos no inverno!")
+                    break;
+                case "março":
+                    alert('Estamos no inverno!')
+                    break;
+                case "abril":
+                    alert('Estamos na primavera!')
+                    break;
+                case "maio":
+                    alert('Estamos na primavera!')
+                    break;
+                case "junho":
+                    alert('Estamos na primavera!')
+                    break;
+                case "julho":
+                    alert('Estamos no verão!')
+                    break;
+                case "agosto":
+                    alert('Estamos no verão!')
+                    break;
+                case "setembro":
+                    alert('Estamos no verão!')
+                    break;
+                case "outubro":
+                    alert('Estamos no outono!')
+                    break;
+                case "novembro":
+                    alert('Estamos no outono!')
+                    break;
+                case "dezembro":
+                    alert('Estamos no outono!')
+                    break;
+                default:
+                    alert('Valor inválido!')
+                    break;
+
+            }
+    }
+    switch (hemisferio) {
+        case "sul":
+            switch (mes) {
+                case "janeiro":
+                    alert('Estamos no verão!')
+                    break;
+                case "fevereiro":
+                    alert("Estamos no verão!")
+                    break;
+                case "março":
+                    alert('Estamos no verão!')
+                    break;
+                case "abril":
+                    alert('Estamos no outono!')
+                    break;
+                case "maio":
+                    alert('Estamos no outono!')
+                    break;
+                case "junho":
+                    alert('Estamos no outono!')
+                    break;
+                case "julho":
+                    alert('Estamos no inverno!')
+                    break;
+                case "agosto":
+                    alert('Estamos no inverno!')
+                    break;
+                case "setembro":
+                    alert('Estamos no inverno!')
+                    break;
+                case "outubro":
+                    alert('Estamos na primavera!')
+                    break;
+                case "novembro":
+                    alert('Estamos na primavera!')
+                    break;
+                case "dezembro":
+                    alert('Estamos na primvaera')
+                    break;
+                default:
+                    alert('valor invalido')
+                    break;
+
+            }
+    }
+
+</script>
